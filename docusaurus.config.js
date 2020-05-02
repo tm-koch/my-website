@@ -86,13 +86,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/tm-koch/my-website/edit/master/website/',
+            'https://github.com/tm-koch/my-website/edit/master/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/tm-koch/my-website/edit/master/website/blog/',
+            'https://github.com/tm-koch/my-website/edit/master/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
