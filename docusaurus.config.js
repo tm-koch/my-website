@@ -10,8 +10,10 @@ module.exports = {
 	prism: {
       additionalLanguages: ['verilog', 'vhdl'], // https://prismjs.com/#supported-languages
 	  theme: require('prism-react-renderer/themes/github'),
+	  darkTheme: require('prism-react-renderer/themes/dracula'),
     },
     navbar: {
+	  hideOnScroll: true,
       title: 'My Site',
       logo: {
         alt: 'My Site Logo',
