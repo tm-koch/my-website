@@ -7,6 +7,10 @@ module.exports = {
   organizationName: 'tm-koch', // Usually your GitHub org/user name.
   projectName: 'my-website', // Usually your repo name.
   themeConfig: {
+	prism: {
+      additionalLanguages: ['verilog', 'vhdl'], // https://prismjs.com/#supported-languages
+	  theme: require('prism-react-renderer/themes/github'),
+    },
     navbar: {
       title: 'My Site',
       logo: {
